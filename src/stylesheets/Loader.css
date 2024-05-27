@@ -1,0 +1,9 @@
+.loader {
+    width: 100vw;
+    max-width: 100%;
+    padding: 30px;
+    height: 60vh;
+    max-height: 100%;
+    font-size: 35px;
+    justify-content: center;
+}

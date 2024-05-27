@@ -1,0 +1,18 @@
+.section-landing {
+    padding: 45px 40px;
+}
+
+.socials-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(119, 183, 226);
+}
+
+.socials:hover {
+    color: rgb(218, 236, 255);
+    transform: translateY(-10px);
+}
+
+b {
+    text-shadow: black 0px 0px 10px;
+}

@@ -1,0 +1,17 @@
+.footer-container {
+    width: 100vw;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 25px;
+}
+
+.footer-credits-container {
+    padding-bottom: 20px;
+}
+
+.credits a:hover {
+    color: darksalmon;
+}
+

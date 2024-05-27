@@ -1,0 +1,51 @@
+.nav-container {
+    box-sizing: border-box;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(0);
+    transition: transform .3s ease-in-out;
+    background-color: #18181b;
+    width: 100vw;
+    max-width: 100%; /* solves the overflow issue */
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    z-index: 1;
+}
+
+[class^="nav-"] {
+    /* border: 2px solid white; */
+    height: 50px;
+    padding-top: 10px;
+}
+
+[class^="nav-right"] {
+    width: 110px;
+}
+
+.nav-home {
+    width: 80px;
+}
+
+.nav-right-projects {
+    margin-right: -40px;
+}
+
+.nav-home:hover {
+    color: #017373;
+}
+
+[class^="nav-right"]:hover {
+    background-color: #017373;
+}
+
+a.active[class^="nav-right"] {
+    background-color: #017373;
+}
+
+a.active[class^="nav-home"]{
+    color: teal;
+}

@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 100%;
+}
+
+.main-heading{
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  background-image: url("../images/bgimg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: end;
+}
+
+.heading {
+  text-shadow: black 0px 0px 30px;
+}
+
+.content-body {
+  background-color: #017373;
+  width: 100vw;
+  max-width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  color: white;
+  min-height: 60vh;
+}

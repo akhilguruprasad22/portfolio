@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './stylesheets/index.css';
+import App from './components/App.js';
+import reportWebVitals from './reportWebVitals.js';
+import {BrowserRouter} from 'react-router-dom';
+import emailjs from '@emailjs/browser';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+emailjs.init({
+  publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+});
+
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

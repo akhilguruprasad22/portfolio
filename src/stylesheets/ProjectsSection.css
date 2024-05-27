@@ -1,0 +1,32 @@
+.projects-grid-container {
+    padding: 90px 35px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+}
+
+.project-card-container {
+    border-radius: 25px !important;
+    margin: 2px;
+}
+
+.project-card-container:hover {
+    background-color: rgb(214, 212, 192);
+}
+
+.project-card-icons {
+    padding: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.project-card-icons svg {
+    height: 20px;
+    width: 22px;
+}
+
+.project-card-footer {
+    justify-content: center;
+}
+
+.project-card-footer button {
+    background-color: white;
+}
