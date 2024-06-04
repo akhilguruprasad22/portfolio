@@ -18,7 +18,7 @@ import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { useAlertContext } from "../context/alertContext.js";
 import "../stylesheets/ContactMeSection.css";
 
-const ContactMeSection = () => {
+const ContactMeSection = (props) => {
   const {isLoading, response, submit} = useSubmit();
   const { onOpen, onClose } = useAlertContext();
 
@@ -30,7 +30,7 @@ const ContactMeSection = () => {
       comment: ""
     },
     onSubmit: (values) => {
-        submit(values);
+        props.onSubmit ? props.onSubmit(values) : submit(values);
     },
     validationSchema: Yup.object({
       firstName: Yup.string().matches(/^[a-zA-Z ]*$/,"Must contain only alphabets").required("Required"),

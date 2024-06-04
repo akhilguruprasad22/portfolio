@@ -31,10 +31,10 @@ function LandingSection() {
 
 
     return (
-    <VStack spacing={10} className="section-landing">
+    <VStack spacing={20} className="section-landing">
         <Text fontSize='5xl' as='b'>I'm Akhil</Text>
         <Avatar name='Akhil G'  size='2xl' src={avatarImg} bg='darkorange' />
-        <Text fontSize='3xl'>A <b>Software Developer</b> aiming to achieve mastery over everything the technological world has to offer.</Text>
+        <Text fontSize='3xl'>A <b className="profession">Software Developer</b> aiming to achieve mastery over everything <br />the technological world has to offer.</Text>
         <HStack spacing={100} p={10} className="socials-container">
             {socials.map((social,index) => 
             <a key={index} href={social.url} className="socials">

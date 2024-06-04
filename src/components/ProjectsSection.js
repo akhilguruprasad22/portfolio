@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Octokit } from "octokit";
+import { Octokit } from "@octokit/core";
 import { ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, SimpleGrid, VStack, Text, Button, HStack } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
@@ -8,8 +8,6 @@ import {
     faReact,
     faHtml5,
     faJs,
-    faWindows,
-    faMicrosoft,
     faCss3Alt,
     faJava
 } from "@fortawesome/free-brands-svg-icons";
