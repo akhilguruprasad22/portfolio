@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "type": "module",
+  "homepage": "https://akhilguruprasad22.github.io",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -20,6 +21,7 @@
     "@testing-library/react": "^13.4.0",
     "formik": "^2.4.6",
     "framer-motion": "^11.1.8",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.0",
@@ -31,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
