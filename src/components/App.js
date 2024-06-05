@@ -12,13 +12,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGhost, faSnowflake, faToriiGate, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
 import { faJediOrder } from '@fortawesome/free-brands-svg-icons';
 
+const homeEP = '/';
+const projectsEP = '/projects';
+const contactEP = '/contact';
+
 function getHeading(location) {
   switch(location.pathname) {
-    case '/':
+    case homeEP:
       return 'Hello!';
-    case '/contact':
+    case contactEP:
       return 'Get in touch';
-    case '/projects':
+    case projectsEP:
       return 'Projects';
     default:
       return "Nothing here.";
@@ -46,9 +50,9 @@ function App() {
             <main className='content-body'>
               <section>
                 <Routes>
-                    <Route path='/' element={<LandingSection />} />
-                    <Route path='/contact' element={<ContactMeSection />} />
-                    <Route path='/projects' element={<ProjectsSection />} />
+                    <Route path={homeEP} element={<LandingSection />} />
+                    <Route path={contactEP} element={<ContactMeSection />} />
+                    <Route path={projectsEP} element={<ProjectsSection />} />
                 </Routes>
               </section>
             </main>
