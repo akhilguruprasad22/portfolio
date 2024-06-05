@@ -46,7 +46,7 @@ function App() {
             <main className='content-body'>
               <section>
                 <Routes>
-                    <Route path='/portfolio' element={<LandingSection />} />
+                    <Route path='/' element={<LandingSection />} />
                     <Route path='/contact' element={<ContactMeSection />} />
                     <Route path='/projects' element={<ProjectsSection />} />
                 </Routes>
