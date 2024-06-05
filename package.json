@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "type": "module",
-  "homepage": "https://akhilguruprasad22.github.io",
+  "homepage": "https://akhilguruprasad22.github.io/",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -25,7 +25,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"
   },

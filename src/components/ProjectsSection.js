@@ -107,7 +107,7 @@ function ProjectsSection() {
     return (
         loading ? <Loader /> :
         <SimpleGrid className="projects-grid-container" spacing={20}>
-            {response.projects.map(project => {
+            {response.projects?.map((project) => {
                 return (
                 <Card key={project.id} className="project-card-container">
                     <CardBody>
