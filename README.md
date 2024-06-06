@@ -1,3 +1,3 @@
 # Akhil's Portfolio
 
-A minimalistic Reactjs Web app.
+A Reactjs Web app to be used as my portfolio.
