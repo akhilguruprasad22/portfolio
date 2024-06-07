@@ -35,7 +35,7 @@
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b build-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
