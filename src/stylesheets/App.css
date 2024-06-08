@@ -20,6 +20,13 @@
   text-shadow: black 0px 0px 30px;
   color: peachpuff;
   -webkit-text-stroke: peru 2px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 498px) {
+  .heading {
+    line-height: 1;
+  }
 }
 
 .content-body {

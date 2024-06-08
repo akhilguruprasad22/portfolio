@@ -45,7 +45,7 @@ function App() {
           <VStack spacing={0}>
             <Header/>
             <VStack className='main-heading'>
-              <Text className='heading' as='b' fontSize='7xl'>{heading==='Nothing here.' ? <FontAwesomeIcon icon={faTriangleExclamation} size='xs'/> : <FontAwesomeIcon icon={faGhost} size='xs'/>} {heading}</Text>
+              <Text className='heading' as='b' fontSize='7xl' role='heading'>{heading==='Nothing here.' ? <FontAwesomeIcon icon={faTriangleExclamation} size='xs'/> : <FontAwesomeIcon icon={faGhost} size='xs'/>} {heading}</Text>
             </VStack>
             <main className='content-body'>
               <section>

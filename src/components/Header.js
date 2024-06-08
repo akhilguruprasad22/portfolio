@@ -32,7 +32,7 @@ const Header = ({children}) => {
       ref={boxRef}
       className="nav-container"
       >
-      <NavLink to='/' className="nav-home"><FontAwesomeIcon size='xl' icon={faHouse} /></NavLink>
+      <NavLink to='/' className="nav-home" aria-label="Home"><FontAwesomeIcon size='xl' icon={faHouse} /></NavLink>
       <HStack spacing={10}>
           <NavLink to='/projects' className="nav-right-projects"><b>Projects</b></NavLink>
           <NavLink to='/contact' className="nav-right-contactme"><b>Connect</b></NavLink>

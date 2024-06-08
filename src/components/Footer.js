@@ -8,7 +8,7 @@ const Footer = () => {
       <footer>
         <VStack>
           <HStack className="footer-credits-container">
-            <p className="credits">Artwork by <a href="https://www.heartovercrown.com/" target="_blank" rel="noreferrer">Shyama Kuver</a></p>
+            <p className="credits">Artwork by <a href="https://www.heartovercrown.com/" target="_blank" rel="noreferrer" aria-label="Link to heartovercrown Website in a new tab">Shyama Kuver</a></p>
           </HStack>
           <Flex className="footer-owner">
             <p>Akhil © 2024</p>
